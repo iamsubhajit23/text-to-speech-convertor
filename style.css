@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #660086;
+    background: linear-gradient(to right, #ffbf69, #e0d9d9);
+}
+
+.container{
+    width: 675px;
+    height: 400px;
+} 
+
+.title{
+    text-align: center;
+}
+
+#heading{
+    font-size: 37px;
+    font-weight: 700;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#sub-heading{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.interaction-container{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#user-input{
+    width: 450px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ece7e0;
+    padding: 8px ;
+    font-size: 16px;
+    outline: none;
+}
+
+#user-input:focus{
+    outline: 2px solid #660086;
+}
+
+#error-msg{
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 500;
+}
+
+#convert-btn{
+    border: none;
+    background-color: #660086;
+    color: #ffff;
+    width: 400px;
+    height: 31px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 15px;
+    margin-left: 9rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#convert-btn:hover{
+    background-color: #ffff;
+    border: 1px solid #660086;
+    color: #660086;
+    font-weight: 700;
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px; 
+    right: 42vw;
+    color: #660086;
+    font-size: 17px;
+    font-weight: 600;
+}
+.footer a{
+    text-decoration: none;
+}
